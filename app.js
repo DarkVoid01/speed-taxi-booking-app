@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 // require('dotenv').config()
 const cors = require('cors') //allows the end points to be used across the browser
-const route = require('./api/routes/userRoute')
+const route = require('./api/routes/userRoute.js')
 app.use(express.json())
 app.use(express.urlencoded({ extended: true}))
 require('./api/db/db').connect()
