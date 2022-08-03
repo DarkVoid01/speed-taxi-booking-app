@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
         message: "Welcome to CRUDApp"
     })
 })
-app.use('/api/v1', route)
+app.use(require('/api/v1', route))
 
 app.use(cors())
 module.exports = app
