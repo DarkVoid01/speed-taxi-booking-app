@@ -10,5 +10,8 @@
     "mongoose": "^6.4.5",
     "nodemon": "^2.0.19",
     "serve": "^14.0.1"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
