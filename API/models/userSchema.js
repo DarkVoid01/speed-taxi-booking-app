@@ -12,7 +12,11 @@ const userSchema = new Schema({
     "country": {
         type: String,
         required: true,
+    },
+    "phone": {
+        type: Number,
+        required: true
     }
 })
 
-modules.exports = mongoose.model("user", userSchema)
+module.exports = mongoose.model("user", userSchema)
