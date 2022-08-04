@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
